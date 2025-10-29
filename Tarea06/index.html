@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del Gato</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h2>Juego del Gato</h2>
+
+    <table border="1" cellspacing="0" style="text-align:center;">
+        <tr>
+            <td onclick="jugada(this)" width="60" height="60"></td>
+            <td onclick="jugada(this)" width="60" height="60"></td>
+            <td onclick="jugada(this)" width="60" height="60"></td>
+        </tr>
+        <tr>
+            <td onclick="jugada(this)" width="60" height="60"></td>
+            <td onclick="jugada(this)" width="60" height="60"></td>
+            <td onclick="jugada(this)" width="60" height="60"></td>
+        </tr>
+        <tr>
+            <td onclick="jugada(this)" width="60" height="60"></td>
+            <td onclick="jugada(this)" width="60" height="60"></td>
+            <td onclick="jugada(this)" width="60" height="60"></td>
+        </tr>
+    </table>
+
+    <h3 id="mensaje"></h3>
+
+    <button onclick="reiniciar()">Reiniciar</button>
+
+    <script src="app.js"></script>
+</body>
+</html>
