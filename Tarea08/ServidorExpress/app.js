@@ -1,9 +1,9 @@
 const express = require('express');
 const app = express();
-const port = 3036; // puedes usar otro número distinto al del primer servidor
+const port = 3036; 
 
 app.get('/', (req, res) => {
-  res.type('text/plain'); // indica que es texto plano
+  res.type('text/plain'); 
   res.send('Express');
 });
 
